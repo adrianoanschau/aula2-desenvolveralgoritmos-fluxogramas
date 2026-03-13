@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulador de Saque - UC2</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="caixa-eletronico">
+        <h2>Simulador de Saque</h2>
+        
+        <p class="saldo-display">Saldo em conta: R$ <span id="saldo">100.00</span></p>
+
+        <div class="input-grupo">
+            <label for="valorSaque">Valor do Saque:</label>
+            <input type="number" id="valorSaque" placeholder="0.00">
+        </div>
+
+        <button onclick="realizarSaque()">Sacar</button>
+
+        <div id="mensagem" class="mensagem"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

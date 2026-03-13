@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Cor de fundo escura como o Excalidraw */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.caixa-eletronico {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 300px;
+}
+
+.input-grupo {
+    margin: 20px 0;
+}
+
+input {
+    padding: 8px;
+    width: 80%;
+}
+
+button {
+    background-color: #2e7d32; /* Cor verde como o Início do fluxograma */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mensagem {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #d32f2f; /* Vermelho para erros */
+}
+
+.sucesso {
+    color: #2e7d32; /* Verde para sucesso */
+}
